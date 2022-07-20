@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(200, 163, 199, 0.893);
+}
+.img1{
+    margin-left: 260px;
+    height: 400px;
+    width: 1000px;
+    border-radius: 20px;
+}
+.img2{
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    bottom:660px;
+    margin-left: 270px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.h1i{
+    text-shadow: 2px 2px black ;
+    font-size: 50px;
+    font-style: italic;
+    position: absolute;
+    margin-left: 360px;
+    bottom: 650px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(83, 12, 83);
+    transition: 0.3s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.h1i:hover{
+    transform: scale(1.1);
+}
+.h1about{
+    
+    font-size: 40px;
+    color: bisque;
+    font-style: italic;
+    text-shadow: 1px 2px rgb(78, 5, 78);
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref1{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    margin-left: 1000px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref1:hover{
+    transform: scale(1.1);
+}
+.ahref2{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 1060px;
+    top: 350px;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref2:hover{
+    transform: scale(1.1);
+}
+.ahref3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 1130px;
+    top: 350px;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref3:hover{
+    transform: scale(1.1);   
+}
+main{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutP{
+    color: bisque;
+    text-shadow: 1px 2px rgb(78, 5, 78);
+    margin-top: 25px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 35px;
+}
+.girlpng{
+    margin-top: 40px;
+    height: 300px;
+    width: 230px;
+    margin-right: 750px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.girlpng:hover{
+    transform: scale(1.1);
+}
+.girlP{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    position: absolute;
+    text-align: start;
+    font-size: 18px;
+    left: 523px;
+    top: 350px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.pHeadG{
+    color: purple;
+    text-shadow: 1px 2px bisque;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 550px;
+    top: 270px;
+}
+.shefpovrP{
+    font-size: 25px;
+    color: purple;
+    text-shadow: 1px 2px bisque;
+    font-weight: bold;
+    position: absolute;
+    left: 1030px;
+    bottom: 230px;
+}
+.shefpovrP2{
+    color: bisque;
+    bottom: 35px;
+    position: absolute;
+    left: 999px;
+    text-align: start;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    font-size: 18px;
+    justify-content: start;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive
+    
+}
+.povrimg{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    left: 785px;
+    bottom:5px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.povrimg:hover{
+    transform: scale(1.1);
+}
+.girlparent2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.parent3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.girlimg2{
+    position: absolute;
+    height: 300px;
+    width: 230px;
+    left: 270px;
+    margin-top: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.girlimg2:hover{
+    transform: scale(1.1);
+}
+.annbrownP{
+    position: absolute;
+    margin-top: 15px;
+    left: 520px;
+    color: purple;
+    text-shadow: 1px 2px bisque;
+    font-weight: bold;
+    font-size: 25px;
+}
+.annbrownP2{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    position: absolute;
+    left: 520px;
+    margin-top: 90px;
+    font-size: 18px;
+    text-align: start;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.emilywhite{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.emilywhite:hover{
+    transform: scale(1.1);
+}
+.emilywhiteP{
+    position: absolute;
+    color: purple;
+    text-shadow: 1px 2px bisque;
+    font-weight: bold;
+    font-size: 25px;
+    left: 1020px;
+    margin-top: 15px;
+}
+.emilywhiteP2{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    text-align: start;
+    position: absolute;
+    left: 1010px;
+    margin-top: 83px;
+    font-size: 18px;   
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.clockwebp{
+    position: absolute;
+    margin-top: 390px;
+    left: 260px;
+    height: 400px;
+    width: 1000px;
+    border-radius: 20px;   
+}
+.coffelogo{
+    position: absolute;
+    top: 1410px;
+    right: 1050px;
+    height: 50px;
+    width: 80px;
+    bottom: 200px;
+    transition: 0.5s;
+}
+.coffelogo:hover{
+    transform: scale(1.2);
+}
+.coffeP{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    text-align: center;
+    position: absolute;
+    top: 1480px;
+    right: 980px;
+    font-size: 18px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.matucox{
+    position: absolute;
+    top: 1380px;
+    left: 670px;
+    height: 90px;
+    transition: 0.5s;
+}
+.matucox:hover{
+    transform: scale(1.2);
+}
+.matucoxP{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    text-align: center;
+    position: absolute;
+    top: 1480px;
+    left: 640px;
+    font-size: 18px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.cocteil{
+    position: absolute;
+    top: 1380px;
+    left: 1000px;
+    height: 90px;
+    transition: 0.5s;
+}
+.cocteil:hover{
+    transform: scale(1.2);
+}
+.cocteilP{
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    text-align: center;
+    font-size: 18px;
+    position: absolute; 
+    top: 1480px;  
+    left: 950px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.historyimg{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+    border-radius: 20px;
+}
+.historyh1{
+    color: purple;
+    text-shadow: 1px 2px bisque;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 900px;
+    top: 1220px;
+}
+.historyP{
+    
+    color: bisque;
+    text-shadow: 2px 2px rgb(78, 5, 78);
+    text-align: start;
+    font-size: 18px;
+    left: 870px;
+    top: 1300px;
+    position: absolute;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+}
+
+
+
+
+
+
+
+
+
+.footerdiv1 div{
+    font-weight: 600;
+    font-size: 16px;
+}
+.footerdiv1 h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footerparent{
+    margin-top: 1700px;
+    padding-top: 40px;
+    border-top: 3px solid rgb(42, 14, 51);
+    overflow: hidden;
+}
+
+.div1{
+    position: absolute;
+    left: 100px;
+}
+.div2{
+    position: absolute;
+    left: 250px;
+}
+.div3{
+    position: absolute;
+    left: 200px;
+    bottom: 2px;
+}
+.div4{
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+}         
+.div5{
+    position: absolute;
+    left: 400px;
+    bottom: 1px;
+    top: 1px;
+}   
+.h33{
+    position: absolute;
+    left: 100px;
+    bottom: 52px;
+}   
+.h333{
+    position: absolute;
+    left: 130px;
+    bottom: 52px;
+} 
+select{
+    width: 200px;
+    border-radius: 10px;
+    border: groove 2px purple;
+}      
+.select2{
+    position: absolute;
+    bottom: 3px;
+}
+.footerdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.footerdiv2 .div6{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    text-shadow: 2px 1px  whitesmoke;
+}
+
+.input1{
+    border-radius: 10px;
+}

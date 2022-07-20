@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(200, 163, 199, 0.893);
+}
+.img1{
+    margin-left: 390px;
+    height: 500px;
+    width: 1100px;
+    
+}
+.img2{
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    bottom:810px;
+    margin-left: 400px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.h1i{
+    text-shadow: 2px 2px black ;
+    font-size: 50px;
+    font-style: italic;
+    position: absolute;
+    margin-left: 500px;
+    bottom: 800px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(83, 12, 83);
+    transition: 0.3s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.h1i:hover{
+    transform: scale(1.1);
+}
+.ahref1{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 450px;
+    margin-left: 1170px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref1:hover{
+    transform: scale(1.1);
+}
+.ahref2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 1260px;
+    top: 450px;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref2:hover{
+    transform: scale(1.1);
+}
+.ahref3{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 1360px;
+    top: 450px;
+    transition: 0.2s;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.ahref3:hover{
+    transform: scale(1.1);   
+}
+
+
+
+
+                    /* main */
+
+main{
+    width: 710px;
+    height: 1180px;
+    bottom: 1px;
+    position: relative;
+    left: 390px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.mainparent{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+.h1Contact{
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    margin-right: 390px;
+    font-size: 50px;
+
+} 
+.h1Address{
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    margin-top: 250px;
+}
+
+.contactP{
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    font-size: 23px;
+    position: absolute;
+    bottom: 960px;
+    margin-right: 400px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+} 
+.addressP{
+    font-size: 25px;
+    position: absolute;
+    left: 250px;
+    top: 370px;
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    text-align: start;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}  
+.telephonenumberP{
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 160px;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}  
+.infoP{
+    color: purple;
+    text-shadow: 2px 2px bisque;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 45px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}   
+   
+.inputname{
+    position: absolute;
+    top: 300px;
+    right: 700px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.inputemail{
+    position: absolute;
+    top: 400px;
+    right: 700px;
+    background-color: antiquewhite;
+    border: none;
+    font-size: 25px;
+    border-bottom: 1px solid black;   
+}
+.inputmessege{
+    position: absolute;
+    top: 500px;
+    right: 700px;
+    background-color: antiquewhite;
+    border: none;
+    font-size: 25px;
+    border-bottom: 1px solid black;  
+}
+.buttonsend{
+    position: absolute;
+    top: 600px;
+    right: 700px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(85, 210, 85);
+}
+.telephoneimg{
+    position: absolute;
+    top: 500px;
+    right: 430px;
+    height: 40px;
+    width: 40px;
+}
+.infoimg{
+    position: absolute;
+    right: 430px;
+    top: 580px;
+    height: 40px;
+    width: 40px;
+}
+iframe{
+    width: 1100px;
+    position: absolute;
+    top: 700px;
+    right: 1px;
+}
+.select1{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 40%;
+    margin-top: 750px;
+}
+
+
+
+
+
+
+.footerdiv1 div{
+    font-weight: 600;
+    font-size: 16px;
+}
+.footerdiv1 h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footerparent{
+    margin-top: 0px;
+    padding-top: 40px;
+    border-top: 3px solid rgb(42, 14, 51);
+    overflow: hidden;
+}
+
+.div1{
+    position: absolute;
+    left: 100px;
+}
+.div2{
+    position: absolute;
+    left: 250px;
+}
+.div3{
+    position: absolute;
+    left: 200px;
+    bottom: 2px;
+}
+.div4{
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+}         
+.div5{
+    position: absolute;
+    left: 400px;
+    bottom: 1px;
+    top: 1px;
+}   
+.h33{
+    position: absolute;
+    left: 100px;
+    bottom: 52px;
+}   
+.h333{
+    position: absolute;
+    left: 130px;
+    bottom: 52px;
+} 
+select{
+    width: 200px;
+    border-radius: 10px;
+    border: groove 2px purple;
+}      
+.select2{
+    position: absolute;
+    bottom: 3px;
+}
+.footerdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.footerdiv2 .div6{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    text-shadow: 2px 1px  whitesmoke;
+}
+
+.input1{
+    border-radius: 10px;
+}
+.div6{
+    top: 1700px;
+    right: 500px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
